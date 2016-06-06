@@ -3,15 +3,14 @@
 
   angular
     .module('vneto')
-    .controller('MainController', MainController);
+    .controller('HomeController', HomeController);
 
   /** @ngInject */
-  function MainController($timeout, webDevTec, toastr) {
+  function HomeController($timeout, webDevTec, toastr) {
     var vm = this;
 
     vm.awesomeThings = [];
     vm.classAnimation = '';
-    vm.creationDate = 1465179836170;
     vm.showToastr = showToastr;
 
     activate();
