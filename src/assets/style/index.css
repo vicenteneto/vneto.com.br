@@ -52,21 +52,24 @@ html {
   padding: 0.2em 0;
 }
 
-md-toolbar.md-default-theme {
-  background-color: black;
-}
-
-section.jumbotron {
-  margin-bottom: 30px;
-  padding: 1px 30px;
-  background-color: #5aadbb;
+header {
+  padding: 1em;
+  background-color: #3f51b5;
   text-align: center;
-
   color: white;
 }
 
-section.jumbotron h1 {
-  font-size: 3em;
+header h1 {
+  font-size: 2em;
+}
+
+.menu {
+  margin-top: 3em;
+}
+
+.menu-option {
+  font-size: 2em !important;
+  text-transform: none;
 }
 
 .techs {
