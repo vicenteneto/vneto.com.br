@@ -5,7 +5,7 @@
     .module('vneto')
     .service('webDevTec', webDevTec);
 
-  /** @ngInject */
+  /* @ngInject */
   function webDevTec() {
     var data = [
       {

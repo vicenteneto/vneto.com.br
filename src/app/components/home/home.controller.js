@@ -5,27 +5,14 @@
     .module('vneto')
     .controller('HomeController', HomeController);
 
-  /** @ngInject */
-  function HomeController($timeout, webDevTec, toastr) {
+  /* @ngInject */
+  function HomeController(webDevTec) {
+
     var vm = this;
 
     vm.awesomeThings = [];
-    vm.classAnimation = '';
-    vm.showToastr = showToastr;
 
-    activate();
-
-    function activate() {
-      getWebDevTec();
-      $timeout(function () {
-        vm.classAnimation = 'rubberBand';
-      }, 4000);
-    }
-
-    function showToastr() {
-      toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
-      vm.classAnimation = '';
-    }
+    getWebDevTec();
 
     function getWebDevTec() {
       vm.awesomeThings = webDevTec.getTec();
