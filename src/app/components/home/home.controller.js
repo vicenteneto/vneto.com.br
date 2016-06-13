@@ -6,20 +6,8 @@
     .controller('HomeController', HomeController);
 
   /* @ngInject */
-  function HomeController(webDevTec) {
+  function HomeController() {
 
     var vm = this;
-
-    vm.awesomeThings = [];
-
-    getWebDevTec();
-
-    function getWebDevTec() {
-      vm.awesomeThings = webDevTec.getTec();
-
-      angular.forEach(vm.awesomeThings, function (awesomeThing) {
-        awesomeThing.rank = Math.random();
-      });
-    }
   }
 })();

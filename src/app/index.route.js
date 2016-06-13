@@ -14,7 +14,7 @@
         controller: 'HomeController',
         controllerAs: 'home'
       });
-
+F
     $urlRouterProvider.otherwise('/');
   }
 
