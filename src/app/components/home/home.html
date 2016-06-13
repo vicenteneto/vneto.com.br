@@ -1,29 +1,44 @@
 <div layout="vertical" layout-fill>
-  <md-content>
-    <header class="jumbotron">
+  <md-content flex>
+    <header class="indigo">
       <img src="assets/images/avatar-me.png" class="circle responsive-img">
       <h1>Vicente Neto</h1>
       <p>Software Developer</p>
 
       <div layout="row" layout-align="space-around center" class="menu">
-        <md-button ng-href="{{ awesomeThing.url }}" class="menu-option">About me</md-button>
-        <md-button ng-href="{{ awesomeThing.url }}" class="menu-option">Resume</md-button>
-        <md-button ng-href="{{ awesomeThing.url }}" class="menu-option">Contact</md-button>
-        <md-button ng-href="{{ awesomeThing.url }}" class="menu-option">Resources</md-button>
+        <md-button>About me</md-button>
+        <md-button>Resume</md-button>
+        <md-button>Contact</md-button>
+        <md-button>Resources</md-button>
       </div>
     </header>
 
-    <div class="techs" layout-align="center">
-      <md-card ng-repeat="awesomeThing in home.awesomeThings | orderBy:'rank'">
-        <md-card-content>
-          <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
-          <h3 class="md-title">{{ awesomeThing.title }}</h3>
-          <p>{{ awesomeThing.description }}</p>
-        </md-card-content>
-        <div class="md-action-buttons">
-          <md-button ng-href="{{ awesomeThing.url }}">Website</md-button>
-        </div>
-      </md-card>
+    <div layout-align="center">
+      Content
     </div>
+
+    <footer>
+      <div layout="column" layout-align="center center" class="get-in-touch indigo">
+        <h2>Let's Socialize</h2>
+        <p>
+          I'm very social and I'd love to hear from you! Feel free to send me an email, find me on LinkedIn, follow
+          me on Github and join me on Facebook.
+        </p>
+        <div layout="row" layout-align="space-around center" class="follow-us">
+          <a href="https://linkedin.com/in/vicenteneto" target="_blank">
+            <i class="fa fa-linkedin-square fa-3" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/vicenteneto" target="_blank">
+            <i class="fa fa-github-square fa-3" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/vnetort" target="_blank">
+            <i class="fa fa-facebook-square fa-3" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div layout="row" layout-align="center center" class="footer-copyright indigo darken">
+        vneto.com.br © 2016 - All Rights Reserved.
+      </div>
+    </footer>
   </md-content>
 </div>

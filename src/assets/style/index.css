@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
 
 @font-face {
   font-family: 'Material Icons';
@@ -41,10 +41,6 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
-[layout=row] {
-  flex-direction: row;
-}
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -54,7 +50,6 @@ html {
 
 header {
   padding: 1em;
-  background-color: #3f51b5;
   text-align: center;
   color: white;
 }
@@ -63,25 +58,40 @@ header h1 {
   font-size: 2em;
 }
 
+footer .get-in-touch {
+  padding: 1em;
+  color: white;
+}
+
+footer .get-in-touch p {
+  font-size: 18px;
+  width: 50%;
+}
+
+footer .get-in-touch .follow-us a {
+  margin: 1em;
+}
+
+footer .get-in-touch .follow-us a i {
+  font-size: 68px;
+  color: #6274BE;
+}
+
+footer .get-in-touch .follow-us a i:hover {
+  color: white;
+}
+
+footer .footer-copyright {
+  padding: 1em;
+  color: white;
+}
+
 .menu {
   margin-top: 3em;
 }
 
-.menu-option {
+.menu .md-button {
   font-size: 2em !important;
-  text-transform: none;
-}
-
-.techs {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.techs md-card {
-  width: 30%;
-}
-
-.techs md-card img.pull-right {
-  float: right;
-  width: 100px;
+  text-transform: none !important;;
+  padding: 1em 2em !important;;
 }
