@@ -5,7 +5,7 @@
     .module('vneto')
     .config(routerConfig);
 
-  /** @ngInject */
+  /* @ngInject */
   function routerConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {
@@ -14,7 +14,7 @@
         controller: 'HomeController',
         controllerAs: 'home'
       });
-
+F
     $urlRouterProvider.otherwise('/');
   }
 

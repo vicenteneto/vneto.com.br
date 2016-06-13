@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
 
 @font-face {
   font-family: 'Material Icons';
@@ -41,10 +41,6 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
-[layout=row] {
-  flex-direction: row;
-}
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -52,33 +48,40 @@ html {
   padding: 0.2em 0;
 }
 
-md-toolbar.md-default-theme {
-  background-color: black;
-}
-
-section.jumbotron {
-  margin-bottom: 30px;
-  padding: 1px 30px;
-  background-color: #5aadbb;
+header {
+  padding: 1em;
   text-align: center;
-
   color: white;
 }
 
-section.jumbotron h1 {
-  font-size: 3em;
+header h1 {
+  font-size: 2em;
 }
 
-.techs {
-  display: flex;
-  flex-flow: row wrap;
+footer .get-in-touch {
+  padding: 1em;
+  color: white;
 }
 
-.techs md-card {
-  width: 30%;
+footer .get-in-touch p {
+  font-size: 18px;
+  width: 50%;
 }
 
-.techs md-card img.pull-right {
-  float: right;
-  width: 100px;
+footer .get-in-touch .follow-us a {
+  margin: 1em;
+}
+
+footer .get-in-touch .follow-us a i {
+  font-size: 68px;
+  color: #6274BE;
+}
+
+footer .get-in-touch .follow-us a i:hover {
+  color: white;
+}
+
+footer .footer-copyright {
+  padding: 1em;
+  color: white;
 }
