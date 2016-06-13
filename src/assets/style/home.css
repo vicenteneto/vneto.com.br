@@ -16,3 +16,8 @@ img.responsive-img {
   text-transform: none !important;;
   padding: 1em 2em !important;;
 }
+
+.content {
+  margin: 1em;
+  font-size: 20px;
+}
