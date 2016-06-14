@@ -48,40 +48,40 @@ html {
   padding: 0.2em 0;
 }
 
-header {
+.header {
   padding: 1em;
   text-align: center;
   color: white;
 }
 
-header h1 {
+.header h1 {
   font-size: 2em;
 }
 
-footer .get-in-touch {
+.footer .get-in-touch {
   padding: 1em;
   color: white;
 }
 
-footer .get-in-touch p {
+.footer .get-in-touch p {
   font-size: 18px;
   width: 50%;
 }
 
-footer .get-in-touch .follow-us a {
+.footer .get-in-touch .follow-us a {
   margin: 1em;
 }
 
-footer .get-in-touch .follow-us a i {
+.footer .get-in-touch .follow-us a i {
   font-size: 68px;
   color: #6274BE;
 }
 
-footer .get-in-touch .follow-us a i:hover {
+.footer .get-in-touch .follow-us a i:hover {
   color: white;
 }
 
-footer .footer-copyright {
+.footer .footer-copyright {
   padding: 1em;
   color: white;
 }
